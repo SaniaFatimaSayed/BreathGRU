@@ -179,7 +179,7 @@ If you use BreathGRU in your research, please cite
 ```bibtex
 @article{sayed2026breathgru,
   title={BreathGRU: A Semi-Supervised BiGRU Framework for Speech--Breath Segmentation in Respiratory Audio},
-  author={Sayed, Sania and ...},
+  author={Sayed, S.F, Holloway, J.W., Zwiggelaar, R., Rezwan, F.I.},
   journal={...},
   year={2026}
 }
