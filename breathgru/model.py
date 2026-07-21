@@ -1,3 +1,6 @@
+import torch
+import torch.nn as nn
+
 class BreathGRUSegmenter(nn.Module):
     def __init__(self, in_dim: int, hidden: int = 96, num_layers: int = 2, dropout: float = 0.2):
         super().__init__()
