@@ -1,3 +1,10 @@
+from pathlib import Path
+
+import librosa
+import numpy as np
+
+from .config import SAMPLE_RATE, FRAME_MS, HOP_MS
+
 def extract_features(path: Path) -> np.ndarray:
     try:
         y, _ = librosa.load(path, sr=SAMPLE_RATE, mono=True)
